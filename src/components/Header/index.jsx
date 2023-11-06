@@ -16,14 +16,14 @@ export function Header() {
           <span>
             Olá,
             {' '}
-            <strong>{user.name.replace(/^./, user.name[0].toUpperCase())}</strong>
+            <strong>{user.name}</strong>
           </span>
           <small>
             <FiUser />
             {' '}
             Perfil de
             {' '}
-            {user.role.replace(/^./, user.role[0].toUpperCase())}
+            {user.role}
           </small>
         </User>
       </aside>
